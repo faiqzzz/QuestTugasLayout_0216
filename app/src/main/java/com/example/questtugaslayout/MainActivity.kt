@@ -118,6 +118,14 @@ fun MainScreen() {
                     UserCard(mahasiswa = item)
                 }
             }
+
+            // Footer
+            Text(
+                text = stringResource(id = R.string.footer_copyright),
+                fontSize = 12.sp,
+                color = colorResource(id = R.color.text_header_subtitle),
+                modifier = Modifier.padding(vertical = 8.dp)
+            )
         }
     }
 }
