@@ -65,6 +65,15 @@ fun UserCard(mahasiswa: Mahasiswa) {
                         modifier = Modifier.padding(vertical = 2.dp)
                     )
                 }
+
+                // Alamat menggunakan addressFontFamily
+                Text(
+                    text = stringResource(id = mahasiswa.addressRes),
+                    color = colorResource(id = mahasiswa.addressColorRes),
+                    fontSize = 14.sp,
+                    fontWeight = FontWeight.SemiBold,
+                    fontFamily = mahasiswa.addressFontFamily
+                )
             }
         }
     }
