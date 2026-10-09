@@ -80,4 +80,18 @@ fun MainScreen() {
             addressFontFamily = FontFamily.Monospace
         )
     )
+
+    // Tampilan UI Utama
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = colorResource(id = R.color.bg_screen)
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+        }
+    }
 }
