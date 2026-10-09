@@ -92,6 +92,23 @@ fun MainScreen() {
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            // Header Title
+            Text(
+                text = stringResource(id = R.string.header_title),
+                fontSize = 26.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(id = R.color.text_header_title),
+                modifier = Modifier.padding(top = 16.dp)
+            )
+
+            // Header Subtitle
+            Text(
+                text = stringResource(id = R.string.header_subtitle),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Medium,
+                color = colorResource(id = R.color.text_header_subtitle),
+                modifier = Modifier.padding(bottom = 24.dp)
+            )
         }
     }
 }
