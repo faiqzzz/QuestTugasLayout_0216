@@ -33,6 +33,12 @@ fun UserCard(mahasiswa: Mahasiswa) {
                 .fillMaxSize()
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically
-        ){}
+        ){
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
+        }
     }
 }
