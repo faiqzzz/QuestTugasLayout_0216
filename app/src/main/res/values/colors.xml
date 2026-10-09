@@ -6,4 +6,24 @@
     <color name="bg_screen">#F4F7FA</color>             <!-- Putih Kebiruan Soft -->
     <color name="text_header_title">#0F172A</color>     <!-- Navy Dark -->
     <color name="text_header_subtitle">#475569</color>  <!-- Slate Grey -->
+
+    <!-- Card 1: Biru Terang -->
+    <color name="bg_card_blue_1">#2196F3</color>
+    <color name="text_phone_blue_1">#FFF59D</color>
+    <color name="text_address_blue_1">#FFFDE7</color>
+
+    <!-- Card 2: Biru Sedang -->
+    <color name="bg_card_blue_2">#1976D2</color>
+    <color name="text_phone_blue_2">#FFEE58</color>
+    <color name="text_address_blue_2">#FFF59D</color>
+
+    <!-- Card 3: Biru Gelap -->
+    <color name="bg_card_blue_3">#0D47A1</color>
+    <color name="text_phone_blue_3">#FFEB3B</color>
+    <color name="text_address_blue_3">#FFE082</color>
+
+    <!-- Card 4: Biru Deep Navy -->
+    <color name="bg_card_blue_4">#0A192F</color>
+    <color name="text_phone_blue_4">#FFD54F</color>
+    <color name="text_address_blue_4">#FFECB3</color>
 </resources>
