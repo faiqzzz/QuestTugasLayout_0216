@@ -33,12 +33,28 @@ fun UserCard(mahasiswa: Mahasiswa) {
                 .fillMaxSize()
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically
-        ){
+        ) {
             Image(
                 painter = painterResource(id = R.drawable.logo_umy),
                 contentDescription = null,
                 modifier = Modifier.size(60.dp)
             )
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp),
+                verticalArrangement = Arrangement.Center
+            ) {
+                // Nama menggunakan nameFontFamily
+                Text(
+                    text = stringResource(id = mahasiswa.nameRes),
+                    color = colorResource(id = R.color.white),
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = mahasiswa.nameFontFamily
+                )
+            }
         }
     }
 }
