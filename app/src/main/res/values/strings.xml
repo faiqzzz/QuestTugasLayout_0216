@@ -13,4 +13,10 @@
     <!-- Data Telepon -->
     <string name="phone_default">085436874190</string>
 
+    <!-- Data Alamat -->
+    <string name="address_ridho">Turi, Sleman</string>
+    <string name="address_john">Kasihan, Bantul</string>
+    <string name="address_thomas">Depok, Sleman</string>
+    <string name="address_paul">Gamping, Sleman</string>
+
 </resources>
