@@ -109,6 +109,15 @@ fun MainScreen() {
                 color = colorResource(id = R.color.text_header_subtitle),
                 modifier = Modifier.padding(bottom = 24.dp)
             )
+            // List Card (LazyColumn)
+            LazyColumn(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                items(mahasiswaList) { item ->
+                    UserCard(mahasiswa = item)
+                }
+            }
         }
     }
 }
