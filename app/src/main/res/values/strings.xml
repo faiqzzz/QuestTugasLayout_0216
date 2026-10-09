@@ -4,4 +4,11 @@
     <string name="header_subtitle">Universitas Muhammadiyah Yogyakarta</string>
     <string name="footer_copyright">Copyright, 2026</string>
 
+    <!-- Data Nama -->
+    <string name="name_ridho">Ridho Faiq Ahmad</string>
+    <string name="name_john">John Cena</string>
+    <string name="name_thomas">Thomas Shelby</string>
+    <string name="name_paul">Paul Walker</string>
+
+
 </resources>
