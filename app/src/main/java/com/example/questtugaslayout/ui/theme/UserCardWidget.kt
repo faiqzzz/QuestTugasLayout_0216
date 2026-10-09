@@ -54,6 +54,17 @@ fun UserCard(mahasiswa: Mahasiswa) {
                     fontWeight = FontWeight.Bold,
                     fontFamily = mahasiswa.nameFontFamily
                 )
+
+                if (mahasiswa.phoneRes != null) {
+                    Text(
+                        text = stringResource(id = mahasiswa.phoneRes),
+                        color = colorResource(id = mahasiswa.phoneColorRes),
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Bold,
+                        fontFamily = mahasiswa.addressFontFamily,
+                        modifier = Modifier.padding(vertical = 2.dp)
+                    )
+                }
             }
         }
     }
